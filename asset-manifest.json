@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Cu-stum/static/css/main.ee88824c.css",
+    "main.js": "/Cu-stum/static/js/main.482232f1.js",
+    "index.html": "/Cu-stum/index.html",
+    "main.ee88824c.css.map": "/Cu-stum/static/css/main.ee88824c.css.map",
+    "main.482232f1.js.map": "/Cu-stum/static/js/main.482232f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee88824c.css",
+    "static/js/main.482232f1.js"
+  ]
+}
