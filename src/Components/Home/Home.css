@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@700&family=Quicksand:wght@300;700&family=Roboto&family=Rubik+Bubbles&display=swap');
+.display-screen {
+  width: 100%;
+}/*# sourceMappingURL=Home.css.map */
+
+.Art-Container{
+    width:30%;
+   height: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    margin-left: 35%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background: transparent;
+}
+.earth{
+  width: 120px;
+  margin-top:1%;
+}
+.quote-mark1{
+color: orange;
+font-size: 220%;
+margin-right: 5%;
+animation: disco1 4s ease  infinite forwards ;
+}
+.quote-mark2{
+  color: orange;
+font-size: 220%;
+margin-right: 2%;
+animation: disco2 5s ease  infinite forwards ;
+}
+@keyframes disco1{
+  0%{
+    color:rgb(255, 255, 0);
+   }
+  30%{
+    color:rgb(86, 255, 20)
+  }
+  50%{
+    color:rgb(0, 221, 255);
+    transform: translateY(7px);
+  }
+  50%{
+   transform: translateY(-7px);
+   }
+   100%{
+     color:rgb(0, 89, 255)
+   }
+}
+@keyframes disco2{
+  0%{
+    color:rgb(255, 255, 0);
+   }
+  30%{
+    color:rgb(86, 255, 20)
+  }
+  50%{
+    color:rgb(0, 221, 255);
+    transform: translateY(7px);
+  }
+  50%{
+   transform: translateY(-7px);
+   }
+   100%{
+     color:rgb(0, 89, 255)
+   }
+}
+
+.display-Words{
+  color: orange;
+  animation: color 2s ease infinite alternate ;
+}
+
+@keyframes color{
+  0%{
+   color:rgb(255, 255, 0);
+  }
+  50%{
+    color:rgb(0, 221, 255);
+  }
+  100%{
+    color:rgb(0, 89, 255)
+  }
+}
+
+ .Introduction{
+  color:purple;
+  font-size: 35px;
+  justify-content: center;
+  display: flex;
+  margin-top: 5%;
+  font-family: 'Rubik Bubbles', cursive;
+ }
+ .Introduction-second-part{
+  color:purple;
+  font-size: 35px;
+  justify-content: center;
+  display: flex;
+  font-family: 'Rubik Bubbles', cursive;
+ }
+ .Introduction-details{
+  color:rgb(182, 88, 182);
+  font-size: 25px;
+  justify-content: center;
+  display: grid;
+  align-items: center;
+ }
+ .Introduction-details-end{
+  color:rgb(182, 88, 182);
+  font-size: 25px;
+  justify-content: center;
+  display: grid;
+  align-items: center;
+ }
+ .QuoteContainer{
+  width:40%;
+  position:fixed;
+  height:auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  
+ }
+ .quoteBox1{
+  display: none;
+ }
+ .quoteBox1.active{
+  display: contents;
+ }
+ 
+ .Randomquote{
+  color:orange;
+ }
+
+.quotemessage{
+  display: block;
+  justify-content: center;
+  background: purple;
+  width: 30%;
+  align-items: center;
+  margin-left: 35%;
+  border-radius: 10px;
+  color:rgb(4, 168, 174);
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255,255, 255, 0.1);
+  border-top: 1px solid rgba(255,255, 255, 0.5);
+  border-left: 1px solid rgba(255,255,255,0.5);
+  backdrop-filter: blur(5px);
+  font-family: 'Rubik Bubbles', cursive;
+  text-align: center;
+}
+
+.quote-Btn{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, rgb(255, 234, 0), rgb(0, 255, 255), rgb(182, 88, 182));
+  border-radius: 10px;
+  height: 10%;
+  font-size:175%;
+  width:15%;
+  border:transparent;
+  color:rgb(254, 183, 4);
+  margin-left:42%;
+  margin-top: 2%;
+  cursor: pointer;
+}
+.quote-Btn:hover{
+  animation: btn 2s ease infinite alternate;
+}
+@keyframes btn{
+  0%{
+    background: linear-gradient(to right, rgb(211, 194, 1), rgb(0, 189, 189), rgb(109, 52, 109));
+  }
+  100%{
+    background: linear-gradient(to right, rgb(211, 194, 1), rgb(0, 189, 189), rgb(109, 52, 109));
+  }
+}
+.page1-end{
+  height:5%;
+  margin-top:7%;
+}
+
+
+.Companies-Info{
+  color:purple;
+  font-size: 22px;
+  justify-content: center;
+  display: grid;
+  align-items: center;
+  margin-top:5%;
+  font-family: 'Rubik Bubbles', cursive;
+}
+.Companies{
+  width:auto;
+  background: transparent;
+  display:grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  margin-top: 4%;
+  margin-left: 15%;
+  font-size: 25px;
+  flex-wrap: wrap;
+}
+.Instagram{
+  color:rgb(3, 76, 145);
+  font-family: 'Satisfy', cursive;
+  font-weight: 600;
+}
+.Instagram-Logo{
+ transform: translateY(10%);
+ width:8%;
+}
+.Apple{
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+}
+.Apple-Logo{
+  transform: translateY(10%);
+  width:8%;
+}
+.Microsoft{
+  color:gray;
+  font-family: 'Roboto', sans-serif;
+}
+.Microsoft-Logo{
+  transform: translateY(10%);
+  width:8%;
+}
+.Netflix{
+  color:red;
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+}
+.Netflix-Logo{
+  transform:translateY(10%);
+  width:8%;
+}
+.TikTok{
+  color:rgb(0, 0, 0);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+}
+.TikTok-Logo{
+  transform:translateY(10%);
+  width:8%;
+}
+.Google{
+  color:black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.Google-Logo{
+  transform:translateY(10%);
+  width:8%;
+}
+
+.status1{
+  color:purple;
+  font-size: 25px;
+  margin-top:7%;
+  margin-left:15%;
+  font-family: 'Rubik Bubbles', cursive;
+}
+.status1-statement{
+  color:rgb(182, 88, 182);
+  font-size:25px;
+  margin-left:16%;
+  font-weight: 300;
+}
+.status2{
+  color:purple;
+  font-size: 25px;
+  margin-top:7%;
+  margin-left:15%;
+  font-family: 'Rubik Bubbles', cursive;
+}
+.status2-statement{
+  color:rgb(182, 88, 182);
+  font-size:25px;
+  margin-left:16%;
+  font-weight: 300;
+}
+.status3{
+  color:purple;
+  font-size: 25px;
+  margin-top:7%;
+  margin-left:15%;
+  font-family: 'Rubik Bubbles', cursive;
+}
+.status3-statement{
+  color:rgb(182, 88, 182);
+  font-size:25px;
+  margin-left:16%;
+  font-weight: 300;
+}
+.status4{
+  color:purple;
+  font-size: 35px;
+  margin-top:7%;
+  margin-left:37%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.status4-gap{
+  margin-left: 1%;
+}
+@media screen and (max-width: 768px) {
+                .quote-Btn{
+                  width: 100%;
+                  margin-left: auto;
+                }
+                .Instagram-Logo{
+                 width:15px;
+                }
+                .TikTok-Logo{
+                 width:15px;
+                }
+                .Apple-Logo{
+                  width:15px;
+                }
+                .quoteBox1{
+                  display: none;
+                }
+                .quoteBox1.active{
+                  display: contents;
+                }
+                .quotemessage{
+                  justify-content: center;
+                  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+                  background-color: rgba(255,255, 255, 0.1);
+                  border-top: 1px solid rgba(255,255, 255, 0.5);
+                  border-left: 1px solid rgba(255,255,255,0.5);
+                  backdrop-filter: blur(5px);
+                  width: 30%;
+                  align-items: center;
+                  margin-left:35%;
+                  border-radius: 10px;
+                }
+                .quote-mark2{
+                  margin-right:auto;
+                }
+                .quote-mark1{
+                 margin-right: 25px;
+                }
+                .Companies-Info{
+                  font-size:auto;
+
+                }
+              
+                
+}

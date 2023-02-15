@@ -1,0 +1,73 @@
+/*# sourceMappingURL=FAQ.css.map */
+.Title{
+    color:orange;
+    font-size: 38px;
+    margin-left:12%;
+}
+.Title-bar{
+    margin-left: 12%;
+}
+
+.Description{
+    margin-left: 12%;
+    margin-top: 2%;
+    font-size: 23px;
+    color: purple;
+}
+
+.question1{
+    margin-left: 12%; 
+    margin-top: 4%;
+    font-size: 24px;
+    color: purple;
+    font-weight: 300;
+    font-family: 'Rubik Bubbles', cursive;
+}
+.question1-answer{
+    margin-left: 12%; 
+    margin-top: 1%;
+    font-size: 24px;
+    color: rgb(182, 88, 182);
+}
+.question2{
+    margin-left: 12%; 
+    margin-top: 3%;
+    font-size: 24px;
+    color: purple;
+    font-weight: 300;
+    font-family: 'Rubik Bubbles', cursive;
+}
+.question2-answer{
+    margin-left: 12%; 
+    margin-top: 1%;
+    font-size: 24px;
+    color: rgb(182, 88, 182);
+}
+.question3{
+    margin-left: 12%; 
+    margin-top: 3%;
+    font-size: 24px;
+    color: purple;
+    font-weight: 300;
+    font-family: 'Rubik Bubbles', cursive;
+}
+.question3-answer{
+    margin-left: 12%; 
+    margin-top: 1%;
+    font-size: 24px;
+    color: rgb(182, 88, 182);
+}
+.question4{
+    margin-left: 12%; 
+    margin-top: 3%;
+    font-size: 24px;
+    color: purple;
+    font-weight: 300;
+    font-family: 'Rubik Bubbles', cursive;
+}
+.question4-answer{
+    margin-left: 12%; 
+    margin-top: 1%;
+    font-size: 24px;
+    color: rgb(182, 88, 182);
+}

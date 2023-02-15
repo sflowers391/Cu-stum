@@ -1,0 +1,92 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    padding:1rem;
+    z-index:1000;
+    box-shadow: 0 2px 4px orange;
+
+.logoName{
+    font-size: 35px;
+    color: orange;
+    cursor: pointer;
+    font-weight:600 ;
+    justify-content: center;
+    align-items: center;
+}
+.Cu-stum-logo{
+    height: 35px;
+    transform: translateY(8px);
+  }
+  .logoDiv{
+    margin-right:45%;
+  }
+
+
+    @media screen and (max-width: 768px) {
+        .navBar{
+            position:absolute;
+            height:max-content;
+            width:80%;
+            border-radius:1rem;
+            background: white;
+            top: -500rem;
+            left:50%;
+            padding:1rem;
+            transform:translate(-50%);
+            z-index:2000;
+            box-shadow:0 2px 4px rgba(2, 15, 29, 0.904);
+            transition:.3s ease-in-out;
+
+
+            .navLists{
+                flex-direction: column;
+                justify-content: center;
+                width:100%;
+                margin:auto;
+                padding:.5rem 0;
+
+                .navItem{
+                    padding: .5rem 0;
+
+                    .navLink{
+                      color:orange;
+                      font-size: .9rem;
+                       font-weight:600;
+                       &:hover{
+                            color:rgb(69, 16, 69)
+                       }
+                       }
+                    }
+                }
+              .closeNavBar{
+                position: absolute;
+                top:1rem;
+                right:1.5rem;
+                color:orange;
+                &:hover{
+                    color:rgb(69, 16, 69);
+                    cursor:pointer
+                }
+              }    
+            }
+        }
+
+        .activeNavBar{
+            top:7rem
+        }
+    }
+
+    .toggleNavBar{
+        .fa-bars{
+            font-size: 25px;
+            color:orange;
+            transform: translateX(7px);
+            cursor: pointer;
+            position: absolute;
+        }
+        &:hover{
+            color:rgb(69, 16, 69);
+        }
+    }

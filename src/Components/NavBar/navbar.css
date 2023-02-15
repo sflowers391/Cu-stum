@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@700&family=Quicksand:wght@300;700&family=Roboto&family=Rubik+Bubbles&family=Satisfy&display=swap');
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 5px;
+  z-index: 1000;
+  box-shadow: 0 2px 4px orange;
+}
+
+.header .logoName {
+  font-size: 35px;
+  color: orange;
+  cursor: pointer;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+}
+.header .Cu-stum-logo {
+  height: 35px;
+  transform: translateY(8px);
+}
+.header .logoDiv {
+  margin-right: 65%;
+}
+.navlink{
+  display: flex;
+  font-size: 15px;
+}
+.navMenu{
+  font-size: 15px;
+  gap: 12px;
+  
+  display: flex;
+  color: aquamarine;
+}
+.navItem{
+  cursor: pointer;
+}
+.navItem:hover{
+   transition:all 0.5 ease;
+   text-decoration: underline;
+}
+.nav-icon{
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .navMenu{
+    margin-right:10%;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    border-top: 1px solid orange;
+    position: absolute;
+    top:80px;
+    left:-110%;
+    opacity:1;
+  }
+  .navMenu.active{
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255,255, 255, 0.1);
+    border-top: 1px solid rgba(255,255, 255, 0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    left:0px;
+    opacity: 1;
+    transition:all 0.5 ease;
+    z-index:1;
+    align-items: center;
+    color:orange;
+  }
+  .nav-icon{
+    display: block;
+    position: absolute;
+    right:0;
+    top:0;
+    transform:translate(-100%, 60%);
+    font-size:1.2rem;
+    color: orange;
+    cursor: pointer;
+  }
+  .nav-icon:hover{
+    color:purple;
+  }
+  
+  .header .logoDiv{
+    margin-right: auto;
+  }
+}
+
+/*# sourceMappingURL=navbar.css.map */

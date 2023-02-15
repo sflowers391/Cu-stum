@@ -1,0 +1,48 @@
+.Title{
+    color:orange;
+    font-size: 38px;
+    margin-left:12%;
+}
+.Title-bar{
+    margin-left:12%; 
+}
+.Mission-title{
+    color: purple;
+    font-family: 'Rubik Bubbles', cursive;
+    margin-left: 12%;
+    margin-top: 1%;
+    font-size: 24px;
+}
+.Mission-statement{
+    color:rgb(182, 88, 182);
+    margin-left:12%;
+    margin-top: 1%;
+    font-size: 24px;
+}
+.Team-title{
+    color: purple;
+    font-family: 'Rubik Bubbles', cursive;
+    margin-left: 12%;
+    margin-top: 1%;
+    font-size: 24px;
+}
+.Team-statement{
+    color:rgb(182, 88, 182);
+    margin-left:12%;
+    margin-top: 1%;
+    font-size: 24px;
+}
+.Job-title{
+    color: purple;
+    font-family: 'Rubik Bubbles', cursive;
+    margin-left: 12%;
+    margin-top: 1%;
+    font-size: 24px;
+}
+.Job-statement{
+    color:rgb(182, 88, 182);
+    margin-left:12%;
+    margin-top: 1%;
+    font-size: 24px;
+}
+
