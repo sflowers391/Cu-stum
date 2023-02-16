@@ -84,7 +84,7 @@ const Home = () => {
             <li>We make sure the quote that we give you are</li>
              <li>not just quotes that you randomly think but </li>
              <li>quotes that gives you motivation and us as well</li>
-             <img src="https://img.icons8.com/wired/64/FD7E14/best-seller.png"/>
+             <img alt='icon' className='icon1' src="https://img.icons8.com/wired/64/FD7E14/best-seller.png"/>
              </ul>
 
              <h1 className='status2'>One quote a day</h1>
@@ -92,14 +92,14 @@ const Home = () => {
             <li>We suggest one quote a day</li>
              <li>because it's better for one archer to shoot a bow </li>
              <li>than two or more trying to shoot thee same bow.</li>
-             <img src="https://img.icons8.com/wired/64/FD7E14/1--v2.png"/>
+             <img alt='icon' className='icon1'  src="https://img.icons8.com/wired/64/FD7E14/1--v2.png"/>
              </ul>
 
              <h1 className='status3'>Touch thoose people that need motivation</h1>
             <ul className='status3-statement'>
             <li>More than 70% of people that say they are about</li>
              <li>to quit, say I can after reading our quotes</li>
-             <img src="https://img.icons8.com/wired/64/FD7E14/crowd.png"/>
+             <img alt='icon' className='icon1'  src="https://img.icons8.com/wired/64/FD7E14/crowd.png"/>
              </ul>
 
              <ul className='status4'>

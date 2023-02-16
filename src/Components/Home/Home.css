@@ -87,7 +87,7 @@ animation: disco2 5s ease  infinite forwards ;
 
  .Introduction{
   color:purple;
-  font-size: 35px;
+  font-size: 38px;
   justify-content: center;
   display: flex;
   margin-top: 5%;
@@ -166,6 +166,7 @@ animation: disco2 5s ease  infinite forwards ;
   margin-left:42%;
   margin-top: 2%;
   cursor: pointer;
+  margin-bottom: 2%;
 }
 .quote-Btn:hover{
   animation: btn 2s ease infinite alternate;
@@ -347,9 +348,132 @@ animation: disco2 5s ease  infinite forwards ;
                  margin-right: 25px;
                 }
                 .Companies-Info{
-                  font-size:auto;
-
+                  font-size:15px;
                 }
-              
-                
+                .Introduction{
+                  font-size: 28px;
+                }
+                .Introduction-second-part{
+                  font-size: 28px;
+                }
+                    
+}
+@media screen and (max-width: 700px){
+             .Companies{
+              display: grid;
+              justify-content: center;
+              margin-left: 8%;
+             }
+             .status1{
+              margin-left: 8%;
+             }
+             .status1-statement{
+              margin-left: 8%;
+              font-size: 20px;
+             }
+             .status2{
+              margin-left: 8%;
+             }
+             .status2-statement{
+              margin-left: 8%;
+              font-size: 20px;
+             }
+             .status3{
+              margin-left: 8%;
+             }
+             .status3-statement{
+              margin-left: 8%;
+              font-size: 20px;
+             }
+             .Art-Container{
+              margin-left: 32%;
+             }
+            
+}
+@media screen and (max-width: 420px){
+           .status4{
+            font-size: 26px;
+            margin-left: 16%;
+           }
+}
+@media screen and (max-width: 820px){
+            .status4{
+          margin-left:30%;
+         font-size: 30px;
+   }
+}
+@media screen and (max-width: 300px){
+  .Companies{
+    display: grid;
+    justify-content: center;
+    margin-left: 8%;
+    font-size: 15px;
+   }
+   .Introduction{
+    font-size: 18px;
+   }
+   .Introduction-second-part{
+    font-size:18px;
+   }
+   .Introduction-details{
+    font-size:12px;
+   }
+   .Introduction-details-end{
+    font-size: 12px;
+   }
+   .Companies-Info{
+    font-size: 12px;
+   }
+   .status1{
+    font-size: 14px;
+   }
+   .status1-statement{
+    font-size:10px;
+   }
+   .status2{
+    font-size: 14px;
+   }
+   .status2-statement{
+    font-size:10px;
+   }
+   .status3{
+    font-size: 14px;
+   }
+   .status3-statement{
+    font-size:10px;
+   }
+   .status4{
+    font-size:20px;
+    display: flex;
+   }
+   .Netflix{
+    font-size:12px;
+   }
+   .Netflix-Logo{
+    width: 10px;
+   }
+   .Apple{
+    font-size:13px;
+   }
+   .Apple-Logo{
+    width: 10px;
+   }
+   .Instagram-Logo{
+    width: 10px;
+   }
+   .TikTok-Logo{
+    width: 10px;
+   }
+   .TikTok{
+    font-size: 12px;
+   }
+   .Microsoft{
+    font-size:13px;
+   }
+   .Google{
+    font-size:13px;
+   }
+   .icon1{
+    width: 15%;
+   }
 }

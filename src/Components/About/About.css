@@ -46,3 +46,25 @@
     font-size: 24px;
 }
 
+@media screen and (max-width: 700px){
+    .Mission-statement{
+        font-size: 17px;
+    }
+    .Mission-title{
+        font-size:17px;
+    }
+    .Team-statement{
+        font-size: 17px;
+    }
+    .Team-title{
+        font-size:17px;
+    }
+    .Job-statement{
+        font-size:17px;
+    }
+    .Job-title{
+         font-size: 17px;
+    }
+
+}
+

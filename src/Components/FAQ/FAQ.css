@@ -71,3 +71,34 @@
     font-size: 24px;
     color: rgb(182, 88, 182);
 }
+
+@media screen and (max-width: 700px){
+    .Description{
+        font-size:15px;
+    }
+
+    .question1-answer{
+        font-size:17px;
+    }
+    .question1{
+        font-size:17px;
+    }
+    .question2-answer{
+        font-size:17px;
+    }
+    .question2{
+        font-size:17px;
+    }
+    .question3-answer{
+        font-size:17px;
+    }
+    .question3{
+        font-size:17px;
+    }
+    .question4-answer{
+        font-size:17px;
+    }
+    .question4{
+        font-size:17px;
+    }
+}
