@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Cu-stum/static/css/main.7ea01192.css",
+    "main.css": "/Cu-stum/static/css/main.6beb21d0.css",
     "main.js": "/Cu-stum/static/js/main.fa4c8d40.js",
     "index.html": "/Cu-stum/index.html",
-    "main.7ea01192.css.map": "/Cu-stum/static/css/main.7ea01192.css.map",
+    "main.6beb21d0.css.map": "/Cu-stum/static/css/main.6beb21d0.css.map",
     "main.fa4c8d40.js.map": "/Cu-stum/static/js/main.fa4c8d40.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ea01192.css",
+    "static/css/main.6beb21d0.css",
     "static/js/main.fa4c8d40.js"
   ]
 }
