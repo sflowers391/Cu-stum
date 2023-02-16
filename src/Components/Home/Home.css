@@ -348,7 +348,7 @@ animation: disco2 5s ease  infinite forwards ;
                  margin-right: 25px;
                 }
                 .Companies-Info{
-                  font-size:15px;
+                  font-size:14px;
                 }
                 .Introduction{
                   font-size: 28px;
@@ -356,40 +356,44 @@ animation: disco2 5s ease  infinite forwards ;
                 .Introduction-second-part{
                   font-size: 28px;
                 }
+                .status4{
+                  margin-left: 1%;
+                }
+                .Companies{
+                  display: grid;
+                  justify-content: center;
+                  margin-left: 8%;
+                 }
+                 .status1{
+                  margin-left: 8%;
+                 }
+                 .status1-statement{
+                  margin-left: 8%;
+                  font-size: 20px;
+                 }
+                 .status2{
+                  margin-left: 8%;
+                 }
+                 .status2-statement{
+                  margin-left: 8%;
+                  font-size: 20px;
+                 }
+                 .status3{
+                  margin-left: 8%;
+                 }
+                 .status3-statement{
+                  margin-left: 8%;
+                  font-size: 20px;
+                 }
+                 .Art-Container{
+                  margin-left: 32%;
+                 }
+                .status4{
+                  margin-right: 9%;
+                }
                     
 }
-@media screen and (max-width: 700px){
-             .Companies{
-              display: grid;
-              justify-content: center;
-              margin-left: 8%;
-             }
-             .status1{
-              margin-left: 8%;
-             }
-             .status1-statement{
-              margin-left: 8%;
-              font-size: 20px;
-             }
-             .status2{
-              margin-left: 8%;
-             }
-             .status2-statement{
-              margin-left: 8%;
-              font-size: 20px;
-             }
-             .status3{
-              margin-left: 8%;
-             }
-             .status3-statement{
-              margin-left: 8%;
-              font-size: 20px;
-             }
-             .Art-Container{
-              margin-left: 32%;
-             }
-            
-}
+
 @media screen and (max-width: 420px){
            .status4{
             font-size: 26px;
